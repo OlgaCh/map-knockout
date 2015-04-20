@@ -30,7 +30,7 @@ var viewModel = {
     // just using sorting function to sort array of wiki articles
     sortItems: function() {
         this.wikiArray.sort(function(left, right) {
-            return left.article == right.article ?0: (left.aricle < right.articel ? -1:1)
+            return left.article == right.article ?0: (left.aricle < right.articel ? -1:1);
         });
     },
 
